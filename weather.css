@@ -1,0 +1,94 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    border: 1px solid black;
+    min-height: 45vh;
+    max-width:  45vh;
+    margin-top: 300px;
+    margin-left: 35%;
+
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left : 0.5rem;
+
+}
+
+ body div h2{
+    text-align: start;
+} */
+
+
+body{
+    font-family: 'Lato', sans-serif;
+     display: flex;
+     justify-content: center;
+     background-color: black;
+ }  
+ .srh{
+    display: flex;
+    margin-top: 11px;
+ }
+ input{
+    width: 200px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 8px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: rgb(206, 236, 246);
+ }
+ button{
+    width: 70px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(191, 235, 250);
+    margin-top: 2px;
+    margin-inline: 9px;
+ }
+ ::placeholder{
+    color: black;
+ }
+ #city{
+    margin-top: 33px;
+    font-size: 33px;
+ }
+ #temp{
+    font-size: 40px;
+    margin-top: -13px;
+ }
+ #type{
+    font-size: 26px;
+    margin-top: -33px;
+ }
+ .container{
+    width: 300px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #fff;
+ }
+ img{
+    width: 210px;
+    margin-top: -22px;
+ }
